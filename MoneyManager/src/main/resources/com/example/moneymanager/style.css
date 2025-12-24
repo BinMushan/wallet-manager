@@ -1,0 +1,141 @@
+/* ---------- Global UI ---------- */
+.root, .anchor-pane {
+    -fx-background-color: #ffffff;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- Header Bar ---------- */
+.header-bar {
+    -fx-background-color: linear-gradient(to right, #ff751f, #ff9a52);
+    -fx-padding: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 10, 0.2, 0, 4);
+    -fx-border-radius: 0 0 20 20;
+
+}
+
+/* Header Text */
+.header-text {
+    -fx-fill: #033311;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+
+/* ---------- Balance Label ---------- */
+#balanceLabel {
+    -fx-background-color: #ffffff;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-font-size: 18px;
+    -fx-text-fill: #033311;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0.3, 0, 3);
+    -fx-border-color: #ff751f;
+    -fx-border-width: 2px;
+}
+
+/* ---------- TextField Styling ---------- */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #ff751f;
+    -fx-padding: 10;
+    -fx-font-size: 15px;
+    -fx-text-fill: #033311;
+}
+
+.text-field:focused {
+    -fx-border-color: #033311;
+    -fx-effect: dropshadow(gaussian, rgba(255,117,31,0.35), 8, 0.3, 0, 0);
+}
+
+/* ---------- Buttons ---------- */
+.button {
+    -fx-background-color: linear-gradient(to bottom, #ff751f, #ff8f4d);
+    -fx-fill-width: 10px;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 8px 22px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 6, 0.1, 0, 3);
+    -fx-cursor: hand;
+    -fx-min-width: 140px;
+}
+
+/* Button hover */
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #ff8f4d, #ff751f);
+    -fx-border-color: #033311;
+}
+
+/* Reset Button Special */
+#resetButton {
+    -fx-background-color: linear-gradient(to bottom, #ff0000, #aa0000);
+    -fx-text-fill: #ffffff;
+}
+
+#resetButton:hover {
+    -fx-background-color: linear-gradient(to bottom, #660000, #880000);
+}
+
+/* ---------- ComboBox Styling ---------- */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-font-size: 14px;
+    -fx-border-color: #ff751f;
+    -fx-font-weight: bold;
+    -fx-min-width: 160px;
+}
+
+.combo-box:hover {
+    -fx-border-color: #ff8f4d;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+/* ComboBox popup */
+.combo-box .list-view {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+
+}
+
+/* ---------- ListView ---------- */
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-padding: 10;
+    -fx-border-color: #033311;
+}
+
+.list-cell {
+    -fx-padding: 10px;
+    -fx-font-size: 15px;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #033311;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: linear-gradient(to right, #ff751f, #ff9a52);
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #ffe5d4;
+}
+
+/* ---------- ComboBox Arrow ---------- */
+.combo-box .arrow {
+    -fx-background-color: #033311;
+    -fx-border-radius: 8px;
+}
